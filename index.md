@@ -1,1 +1,0 @@
-zoomableSunburstv2.5ColorGradient.html
