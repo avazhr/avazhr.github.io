@@ -132,7 +132,7 @@
         var innerSVG = d3.select('body').append('svg')
                 .attr('width','30vw')  //try to use 'vw', 'vh'
                 .attr('height','30vh')
-                .attr('viewBox', `-500 -455 ${width} ${height}`)
+                .attr('viewBox', `-455 -375 ${width} ${height}`)
                 .on('click', () => focusOn1()); // Reset zoom on canvas click
             //using json
 
@@ -264,7 +264,7 @@
             var innerSVG2 = d3.select('body').append('svg')
                 .attr('width', '30vw')
                 .attr('height', '30vh' )
-                .attr('viewBox', ` -500 -455 ${width} ${height}`)
+                .attr('viewBox', ` -455 -375 ${width} ${height}`)
                 .on('click', () => focusOn2()); // Reset zoom on canvas click
 
             //using json
@@ -392,7 +392,7 @@
         var innerSVG3 = d3.select('body').append('svg')
                 .attr('width', '30vw')
                 .attr('height', '30vh')
-                .attr('viewBox', ` -500 -455 ${width} ${height}`)
+                .attr('viewBox', ` -455 -375 ${width} ${height}`)
                 .on('click', () => focusOn3()); // Reset zoom on canvas click
 
             //using json
@@ -531,8 +531,8 @@ const textFits4 = dOne => {
         };  
 var innerSVG4 = d3.select('body').append('svg')
                 .attr('width', '30vw')  //try to use 'vw', 'vh'
-                .attr('height', '3s0vh ')
-                .attr('viewBox', `-500 -455 ${width} ${height}`)
+                .attr('height', '30vh ')
+                .attr('viewBox', `-455 -375 ${width} ${height}`)
                 .on('click', () => focusOn4()); // Reset zoom on canvas click
             //using json
         d3.json("Statistical.json", (error, root) => {
