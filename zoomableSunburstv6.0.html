@@ -130,9 +130,9 @@
   
 
         var innerSVG = d3.select('body').append('svg')
-                .attr('width','30vw')  //try to use 'vw', 'vh'
-                .attr('height','30vh')
-                .attr('viewBox', `-455 -400 ${width} ${height}`)
+                .attr('width','45vw')  //try to use 'vw', 'vh'
+                .attr('height','45vh')
+                .attr('viewBox', `-500 -375 ${width} ${height}`)
                 .on('click', () => focusOn1()); // Reset zoom on canvas click
             //using json
 
@@ -262,9 +262,9 @@
             return d.data.name.length * CHAR_SPACE < perimeter;
         };  
             var innerSVG2 = d3.select('body').append('svg')
-                .attr('width', '30vw')
-                .attr('height', '30vh' )
-                .attr('viewBox', ` -455 -400 ${width} ${height}`)
+                .attr('width', '45vw')
+                .attr('height', '45vh' )
+                .attr('viewBox', ` -500 -375 ${width} ${height}`)
                 .on('click', () => focusOn2()); // Reset zoom on canvas click
 
             //using json
@@ -390,9 +390,9 @@
             return dOne.data.name.length * CHAR_SPACE < perimeter;
         };  
         var innerSVG3 = d3.select('body').append('svg')
-                .attr('width', '30vw')
-                .attr('height', '30vh')
-                .attr('viewBox', ` -455 -400 ${width} ${height}`)
+                .attr('width', '45vw')
+                .attr('height', '45vh')
+                .attr('viewBox', ` -500 -375 ${width} ${height}`)
                 .on('click', () => focusOn3()); // Reset zoom on canvas click
 
             //using json
@@ -530,9 +530,9 @@ const textFits4 = dOne => {
             return dOne.data.name.length * CHAR_SPACE < perimeter;
         };  
 var innerSVG4 = d3.select('body').append('svg')
-                .attr('width', '30vw')  //try to use 'vw', 'vh'
-                .attr('height', '30vh ')
-                .attr('viewBox', `-455 -390 ${width} ${height}`)
+                .attr('width', '45vw')  //try to use 'vw', 'vh'
+                .attr('height', '45vh ')
+                .attr('viewBox', `-500 -375 ${width} ${height}`)
                 .on('click', () => focusOn4()); // Reset zoom on canvas click
             //using json
         d3.json("Statistical.json", (error, root) => {
